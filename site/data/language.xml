@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
-	<language name="English" short="en" default="yes">
-		<constant name="site_title">Site title</constant>
+	<language name="Hebrew" short="he" rtl="yes" default="yes">
+		<constant name="site_title">Simzol-Site</constant>
+		<constant name="usa_header">חבילות לארה"ב</constant>
+		<constant name="usa_desc1">שיחות,גלישה,SMS</constant>
+		<constant name="usa_desc2">ללא הגבלה!</constant>
+		<constant name="europe_header">חבילות לאירופה</constant>
+		<constant name="europe_desc">שיחות באירופה ולישראל</constant>
+		<constant name="send">שלח</constant>
+		<constant name="form_title">מלא את הפרטים ונציג יחזור אליכם בהקדם.</constant>
+		<constant name="form_title2">מבצעים והנחות במעמד החיוב למחזיקי כרטיס:חבר,קרנותהשוטרים,יחד,הייטקזון members.
+
+		</constant>
 	</language>
 </document>
