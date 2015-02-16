@@ -20,7 +20,7 @@
  	background-repeat: no-repeat;
  	background-position: center;
  	background-size: 1920px 545px;
- 	/*width: 1920px;*/
+ 	max-width: 1920px;
  	height: 545px;
  }
 
@@ -303,6 +303,12 @@ header div.form_wrap div.inner_wrap form label input {
 	padding-bottom: 10px;
 	font-size: 1.2em;
 	width: 290px;
+	border:1px solid #003981;
+	transition:all 0.5s;
+}
+
+header div.form_wrap div.inner_wrap form label input:focus {
+	border: 1px solid #e61b25;
 }
 
 header div.form_wrap div.inner_wrap form  div.controls {
@@ -323,9 +329,76 @@ header div.form_wrap div.inner_wrap form div.controls button {
 	color: black;
 	border: none;
 	cursor: pointer;
+	transition:all 0.5s;
+}
+
+header div.form_wrap div.inner_wrap form div.controls button:hover {
+	background-color:#648912;
+	color:white;
 }
 
 
+
+/*
+	Tablet Version
+*/
+
+@media all and (max-width: 1024px) and (min-width: 768px){
+	div.inner_wrap {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-right: 20px;
+		padding-left: 20px;
+		width: auto;
+		position: relative;
+	}
+
+	header div.inner_wrap div.usa {
+		width: 450px;
+	}
+
+	header div.inner_wrap div.usa h2 {
+		width: calc(450px - 203px);
+	}
+
+	header div.inner_wrap div.usa span:first-of-type {
+		width: calc(450px - 203px);
+	}
+
+	header div.inner_wrap div.usa span:last-of-type {
+		margin-top: -20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		width: calc(450px - 203px);
+		font-size: 2.4em;
+	}
+
+	header div.inner_wrap div.europe {
+		width: 450px;
+		margin-right: 80px;
+	}
+
+	header div.inner_wrap div.europe:before {
+		margin-left: -510px;
+	}
+
+	header div.inner_wrap div.europe h2 {
+		width: calc(450px - 237px);
+	}
+
+	header div.inner_wrap div.europe span {
+		width: calc(450px - 237px);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 2.2em;
+	}
+
+	header div.form_wrap div.inner_wrap form label input {
+		width: 250px;
+	}
+
+}
 
 
 
