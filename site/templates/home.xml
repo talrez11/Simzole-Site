@@ -30,12 +30,14 @@
 				</div>
 				<!-- Form Div -->
 				<div class="form_wrap">
+				<cms:desktop>
 					<cms:module
 								name="articles"
 								action="show"
 								text_id="special_order"
 								template="parts/article_no_header.xml"
 								/>
+				</cms:desktop>
 					<div class="inner_wrap">
 						<h2><cms:text constant="form_title"/></h2>
 						<cms:module
