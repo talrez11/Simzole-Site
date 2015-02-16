@@ -76,6 +76,7 @@ header div.inner_wrap article p {
 
 header div.inner_wrap article p:last-of-type {
 	color:#99cc33;
+	font-weight: bold;
 }
 
 header div.inner_wrap > div {
