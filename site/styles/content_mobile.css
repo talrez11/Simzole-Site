@@ -269,17 +269,17 @@ header div.form_wrap div.inner_wrap form {
 	padding-bottom: 5px;
 }
 
-header div.form_wrap div.inner_wrap form  label {
+header form  label {
 	display:block;
 	margin-top: 15px;
 
 }
 
-header div.form_wrap div.inner_wrap form label span {
+header form label span {
 	display:block;
 }
 
-header div.form_wrap div.inner_wrap form label input {
+header form label input {
 	display: inline-block;
 	vertical-align: middle;
 	padding-right: 5px;
@@ -291,11 +291,11 @@ header div.form_wrap div.inner_wrap form label input {
 	transition:all 0.5s;
 }
 
-header div.form_wrap div.inner_wrap form label input:focus {
+header form label input:focus {
 	border: 1px solid #e61b25;
 }
 
-header div.form_wrap div.inner_wrap form  div.controls {
+header form  div.controls {
 	display:block;
 	text-align: center;
 	margin-left: auto;
@@ -303,7 +303,7 @@ header div.form_wrap div.inner_wrap form  div.controls {
 	margin-top: 15px;
 }
 
-header div.form_wrap div.inner_wrap form div.controls button {
+header form div.controls button {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -320,7 +320,7 @@ header div.form_wrap div.inner_wrap form div.controls button {
 	transition:all 0.5s;
 }
 
-header div.form_wrap div.inner_wrap form div.controls button:hover {
+header form div.controls button:hover {
 	background-color:#648912;
 	color:white;
 }
